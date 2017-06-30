@@ -243,7 +243,7 @@
             </h2>
             <div class="card card-tv card-big-tv mb-5">
               <div class="card-img-top">
-                <a href="javascript:void(0);">
+                <a href="<?php bloginfo('url'); ?>/joia_tv/test/">
                   <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/joia-tv.jpg" alt="">
                 </a>
               </div>
@@ -309,9 +309,9 @@
               </div>
             </div>
             <div class="text-center">
-              <button type="button" class="btn btn-gray">
+              <a href="<?php bloginfo('url'); ?>/joia_tv" rol="button" class="btn btn-gray">
                 Ver todos los videos
-              </button>
+              </a>
             </div>
           </div>
         </section>

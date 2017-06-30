@@ -9,17 +9,24 @@ Template name: Contacto
     <div class="footer-over">
       <div class="page page-content page-contacto">
         <div class="container">
+	    <?php
+          if (have_posts()) :
+          	while (have_posts()) :
+          		the_post(); ?>
           <div class="page-heading-title">
-            <h1>Contacto</h1>
+            <h1><?php the_title(); ?></h1>
           </div>
           <div class="text-block text-block-center text-center">
             <div class="row justify-content-md-center">
               <div class="col col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nulla lorem, varius et est at, sagittis interdum ipsum. Cras vitae felis porttitor, vulputate quam vel, porttitor nulla. Aliquam sed hendrerit eros. Duis lacinia augue ac egestas condimentum. Suspendisse potenti. Donec orci mauris, euismod vel fringilla sed, feugiat ac felis. Sed consectetur, est eu vulputate sollicitudin, ligula augue finibus urna, non ultrices lorem felis et augue. Curabitur vitae varius arcu. Vivamus lobortis tristique nunc, facilisis suscipit lectus varius eu.</p>                
+                <?php the_content(); ?>              
               </div>
             </div>
           </div>
-
+        <?php  	
+          	endwhile;
+          endif;
+        ?>
           <div class="row justify-content-md-center">
             <div class="col col-md-8">
               <form class="form-contacto">

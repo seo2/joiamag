@@ -21,15 +21,15 @@
     <![endif]-->
   </head>
 
-  <body <?php if(is_home()){ ?>class="home"<?php } ?><?php if(is_singular('joia_tv')){ ?>class="joia-tv"<?php } ?>>
+  <body <?php if(is_home()){ ?>class="home"<?php } ?><?php if(is_singular('joia_tv') || is_archive('joia_tv')){ ?>class="joia-tv"<?php } ?>>
 
-    <nav class="navbar navbar-toggleable-md fixed-top <?php if(is_singular('joia_tv')){ ?>navbar-inverse<?php }else{ ?>navbar-light<?php } ?>">
+    <nav class="navbar navbar-toggleable-md fixed-top <?php if(is_singular('joia_tv') || is_archive('joia_tv')){ ?>navbar-inverse<?php }else{ ?>navbar-light<?php } ?>">
       <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
-          <?php if(is_singular('joia_tv')){ ?>
+          <?php if(is_singular('joia_tv') || is_archive('joia_tv')){ ?>
           <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/logo-joia-white.svg">
           <?php }else{ ?>
           <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/logo-joia.svg">
@@ -44,7 +44,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0);">
+              <a class="nav-link" href="<?php bloginfo('url'); ?>/somos">
                 Somos
               </a>
             </li>
