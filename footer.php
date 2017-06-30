@@ -12,32 +12,32 @@
               <p>Santa Rosa #665 of. 6 Santiago, Chile<br>contacto@joiamagazine.com / 22 634 12 74</p>
               <ul class="list-inline">
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Facebook">
+                  <a href="https://www.facebook.com/JOIA-Magazine-10713226317/" target="_blank" title="Facebook">
                     <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Twitter">
+                  <a href="https://twitter.com/joiamagazine" target="_blank" title="Twitter">
                     <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Instagram">
+                  <a href="http://instagram.com/joiamagazine" target="_blank" title="Instagram">
                     <i class="fa fa-fw fa-instagram" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Youtube">
+                  <a href="https://www.youtube.com/channel/UCa_g0FsYuOVStMTP1wEaQ6Q" target="_blank" title="Youtube">
                     <i class="fa fa-fw fa-youtube-play" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Tumblr">
+                  <a href="http://joiamagazine.tumblr.com/" target="_blank" title="Tumblr">
                     <i class="fa fa-fw fa-tumblr" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="javascript:void(0)" title="Vimeo">
+                  <a href="https://vimeo.com/joiamagazine" target="_blank" title="Vimeo">
                     <i class="fa fa-fw fa-vimeo" aria-hidden="true"></i>
                   </a>
                 </li>

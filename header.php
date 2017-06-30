@@ -21,15 +21,19 @@
     <![endif]-->
   </head>
 
-  <body <?php if(is_home()){ ?>class="home"<?php } ?>>
+  <body <?php if(is_home()){ ?>class="home"<?php } ?><?php if(is_singular('joia_tv')){ ?>class="joia-tv"<?php } ?>>
 
-    <nav class="navbar navbar-toggleable-md fixed-top navbar-light">
+    <nav class="navbar navbar-toggleable-md fixed-top <?php if(is_singular('joia_tv')){ ?>navbar-inverse<?php }else{ ?>navbar-light<?php } ?>">
       <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
+          <?php if(is_singular('joia_tv')){ ?>
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/logo-joia-white.svg">
+          <?php }else{ ?>
           <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/logo-joia.svg">
+          <?php } ?>
         </a>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -72,22 +76,22 @@
           </ul>
 
           <nav class="nav nav-redes">
-            <a class="nav-link active" href="javascript:void(0);" title="Facebook">
+            <a class="nav-link active" href="https://www.facebook.com/JOIA-Magazine-10713226317/" target="_blank" title="Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a class="nav-link" href="javascript:void(0);" title="Twitter">
+            <a class="nav-link" href="https://twitter.com/joiamagazine" target="_blank" title="Twitter">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
-            <a class="nav-link" href="javascript:void(0);" title="Instagram">
+            <a class="nav-link" href="http://instagram.com/joiamagazine" target="_blank" title="Instagram">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
-            <a class="nav-link" href="javascript:void(0);" title="Youtube">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCa_g0FsYuOVStMTP1wEaQ6Q" target="_blank" title="Youtube">
                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
             </a>
-            <a class="nav-link" href="javascript:void(0);" title="Tumblr">
+            <a class="nav-link" href="http://joiamagazine.tumblr.com/" target="_blank" title="Tumblr">
                 <i class="fa fa-tumblr" aria-hidden="true"></i>
             </a>
-            <a class="nav-link" href="javascript:void(0);" title="Vimeo">
+            <a class="nav-link" href="https://vimeo.com/joiamagazine" target="_blank" title="Vimeo">
                 <i class="fa fa-vimeo" aria-hidden="true"></i>
             </a>
             <a class="nav-link" href="javascript:void(0);" title="Search" data-toggle="modal" data-target="#modal-search">
