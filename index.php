@@ -29,8 +29,8 @@
                   </div>
                   <div class="card-body">
                     <p class="card-meta mb-0">
-                      <a href="javascript:void(0);">
-                        <i class="icon-section-features"></i> Noticias
+                      <a href="http://todo.seo2.cl/clientes/joia/wp/2017/06/30/entrevista/">
+                        <i class="icon-section-features"></i> Entrevista
                       </a>
                     </p>
                     <h1 class="card-title">

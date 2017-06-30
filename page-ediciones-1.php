@@ -40,7 +40,7 @@ Template name: Ediciones 1
             <div class="col-6 col-sm-3"> 
               <div class="card card-edicion">
                 <div class="card-img-top">
-                  <a href="javascript:void(0);">
+                  <a href="<?php bloginfo('url'); ?>/ediciones-2/">
                     <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/ediciones-1.jpg" alt="">
                   </a>  
                 </div>

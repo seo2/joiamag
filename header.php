@@ -54,7 +54,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0);">
+              <a class="nav-link" href="<?php bloginfo('url'); ?>/ediciones">
                 Ediciones
               </a>
             </li>
@@ -71,6 +71,11 @@
             <li class="nav-item">
               <a class="nav-link" href="javascript:void(0);">
                 Tienda
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php bloginfo('url'); ?>/mixtapes">
+                Mixtapes
               </a>
             </li>
           </ul>

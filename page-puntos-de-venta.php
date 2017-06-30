@@ -30,7 +30,8 @@ Template name: Puntos de Venta
           endif;
         ?>
         <div class="image-visual">
-          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/map.jpg" alt="">
+<!--           <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/map.jpg" alt=""> -->
+          <div style="height:500px;" id="map-canvas"></div>
         </div>
         <div class="joia-stores">
           <div class="container">
@@ -97,5 +98,5 @@ Template name: Puntos de Venta
 
       </div>
     </div>
-
+    
 <?php get_footer(); ?>

@@ -30,6 +30,12 @@ function jquery_cdn() {
 
 
 function theme_js(){
+/*
+	
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfb8y5fLrqf0xiysVqZqPzqAghs6hKPu8" async defer></script>	
+    wp_enqueue_script('tether-js', 'http://maps.google.com/maps/api/js?sensor=false', array('jquery'),'', true);
+*/
+    wp_enqueue_script('gamaps-js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCybKSYiwSR3qmjv718Hj5KpNkCQ0lD7TA', array('jquery'),'', true);
     wp_enqueue_script('tether-js', 'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js', array('jquery'),'', true);
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'),'', true);
     wp_enqueue_script('workaround-js', get_template_directory_uri() . '/assets/js/ie10-viewport-bug-workaround.js', array('jquery'),'', true);
